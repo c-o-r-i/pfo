@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -63,6 +64,7 @@ h1 {
 .photo {
     max-width: fit-content;
     opacity: 0.5;
+    width: 100%;
 }
 
 .text-overlay {
