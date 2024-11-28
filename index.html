@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Aquí debajo he insertado las referencias de la font-family elegida -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects </a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Esta sección consiste en una imagen de fondo borrosa un texto encima
+     que anuncia nuestra empresa -->
+    <section id="home" class="section">
+        <div class="content">
+            <img src="assets/img/StockCake-Tech Team Working_1732764192.jpg" alt="Team photo" class="photo">
+            <div class="text-overlay">
+                <h1>Kory It Evolution</h1>
+                <p>Software Solutions for your Company</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Esta sección es una breve introducción sobre nuestra empresa.-->
+    <section id="about" class="section">
+        <div class="content">
+            <div class="bio">
+                <h1>About us</h1>
+                <p>We are a team of experienced software developers, designers, architects, testers, cibersecurity experts and projects managers<br> 
+                    who can help you transform your idea into a powerful and scalable product.</p>
+                <p>From Mendoza, Argentina, to the World.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Esta sección enumera ordenadamente los diversos servicios que brinda nuesta empresa-->
+    <section id="services" class="section">
+        <h1>Services</h1>
+        <div class="bloques">
+            <div class="bloque">
+                <h2>Software applications</h2>
+                <p>We develop custom software.</p>
+            </div>
+            <div class="bloque">
+                <h2>QA</h2>
+                <p>We ensure high quality performance.</p>
+            </div>
+            <div class="bloque">
+                <h2>Maintenance</h2>
+                <p>We maintenance your sistem regularly.</p>
+            </div>
+            <div class="bloque">
+                <h2>Cibersecurity</h2>
+                <p>We protect your data business.</p>
+            </div>
+            <div class="bloque">
+                <h2>Technical Support</h2>
+                <p>We can help you 24 hours, 365 days a year.</p>
+            </div> 
+        </div>
+    </section>
+
+    <!-- En esta sección hay una tabla que enumera las distintas empresas a las que les brindamos servicios-->
+    <section id="projects" class="section">
+      <h1>These companies trust Us</h1>
+      <table>
+          <tr>
+            <td>Almacuyo</td>
+            <td>Development, QA and maintenance of mobile software.</td>
+          </tr>
+          <tr>
+            <td>Uvita</td>
+            <td>Development, QA and maintenance of stock control system.</td>
+          </tr>
+          <tr>
+            <td>Vino Toro</td>
+            <td>Development and maintenance of custom billing and stock control system.</td>
+          </tr>
+          <tr>
+            <td>Francis Malmann Gourmet</td>
+            <td>Maintenance of legacy software. Cibersecurity audits.</td>
+          </tr>
+          <tr>
+            <td>Luigi Bosca</td>
+            <td>Depelopment, QA and maintenance of mobile and desktop software. </td>
+          </tr>
+      </table>
+    </section>
+    
+    <!-- En esta sección hay un formulario de contacto -->
+    <section id="contact" class="section">
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="messaje" rows="4" required></textarea>
+
+            <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+        </form>
+    </section>
+
+    
+    <!-- Aquí se brinda información sobre derechos de autoría de la página web-->
+    <footer>
+        <p>&copy; 2024 Cori. All rights reserved .</p>
+    </footer>
+
+</body>
+</html>
