@@ -21,6 +21,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+   
 }
 
 .menu {
@@ -46,7 +47,7 @@ header {
 .section {
     padding: 9%;
     text-align: center;
-    margin-top: 3%;
+  
 }
 
 h1 {
@@ -62,7 +63,6 @@ h1 {
 }
 
 .photo {
-    max-width: fit-content;
     opacity: 0.5;
     width: 100%;
 }
@@ -77,11 +77,12 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 8px; 
     padding: 5%;
+    width: 90%;
 }
 
 .text-overlay h1 {
     font-size: 4rem;
-    margin-bottom: 0.5rem;
+   
 }
 
 .text-overlay p {
@@ -176,7 +177,7 @@ footer {
     padding: 1rem 0;
 }
 
-/* Media Queries */
+/* Media Queries*/
 
 /* Tablet horizontal */
 @media (max-width: 1080px) {
@@ -195,6 +196,8 @@ footer {
 
 /* Tablet vertical */
 @media (max-width: 768px) {
+
+
     #about .content {
         flex-direction: column;
         text-align: center;
@@ -216,6 +219,19 @@ footer {
         font-size: 2rem;
     }
 
+    .text-overlay { 
+        width: 90%;
+        padding: 2%;
+    }
+
+    .text-overlay h1 { 
+        font-size: 2rem;
+    }
+
+    .text-overlay p { 
+        font-size: 1.2rem;
+    }
+
     .bloque {
         width: 80%;
     }
@@ -228,12 +244,18 @@ footer {
 
 /* Mobile 2 */
 @media (max-width: 375px) {
-    .text-overlay h1 {
-        font-size: 2.5rem;
+
+    .text-overlay { 
+        width: 90%;
+        padding: 3%;
     }
 
-    .text-overlay p {
-        font-size: 1.2rem;
+    .text-overlay h1 { 
+        font-size: 1.5rem;
+    }
+
+    .text-overlay p { 
+        font-size: 1rem;
     }
 
     form input, form textarea, form button {
